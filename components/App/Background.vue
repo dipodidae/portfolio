@@ -73,8 +73,8 @@ function animate() {
 
 <template>
   <div class="container">
-    <BackgroundDot v-for="(dot, index) in dots" :key="index" :dot="dot" />
-    <BackgroundLine v-for="(line, index) in lines" :key="index" :line="line" />
+    <AppBackgroundDot v-for="(dot, index) in dots" :key="index" :dot="dot" />
+    <AppBackgroundLine v-for="(line, index) in lines" :key="index" :line="line" />
   </div>
 </template>
 
